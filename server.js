@@ -19,7 +19,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:517",
+    origin: 
+    "https://magenta-marigold-2fe550.netlify.app",
     credentials: true,
   })
 );
